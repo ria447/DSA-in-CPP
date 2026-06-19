@@ -3,6 +3,7 @@ using namespace std;
 
 int maxSubArray(vector<int> nums) 
 {
+    //using Kadane's Algorithm
     int max_sum = INT_MIN, current_sum = 0;
 
     for (int i = 0; i < nums.size(); i++)
