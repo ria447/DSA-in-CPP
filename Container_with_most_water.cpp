@@ -4,6 +4,7 @@ using namespace std;
 
 int maxArea(vector<int>& height) 
 {
+    // using two pointer approach
     int left = 0, right = height.size() - 1;
     int max_area = INT_MIN, width, h; 
     int area;
@@ -28,3 +29,5 @@ int main()
    int result = maxArea(height);
    return result;
 }
+
+//output = 49
