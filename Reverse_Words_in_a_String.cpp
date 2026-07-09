@@ -34,3 +34,6 @@ int main()
     cout << output << endl;
     return 0;
 }
+
+
+//output: blue is sky the
